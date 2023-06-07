@@ -5,7 +5,7 @@
 let currentLetter = "H"
 
 /////////////// CONTROL SIZE OF PIXELS
-let pixelX = 0.25;
+let pixelX = 0.75;
 let pixelY = 10;
 
 let sizeX;
