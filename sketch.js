@@ -68,8 +68,8 @@ function setup() {
   lineCountMax = alphabet[currentLetter].length;
   scaledFactor = scaledHeight / lineCountMax * 0.5;
 
-  background(255);	
-  background(randH * 0.4, 150, 220, 40);
+//   background(255);	
+//   background(randH * 0.4, 150, 220, 40);
 
 }
 
@@ -111,7 +111,7 @@ function draw() {
         n1 = map(n1, 0, 1, -25, 25)
         n2 = map(n2, 0, 1, -25, 25);
 
-        fill(randH + h * 0.4, 150, 220, 140);
+        fill(randH + h * 0.4, 150, 220, 100);
 
         push();
         translate((space * sizeX / 2) - (space * w), (space * sizeY / 2) - (space * h))
