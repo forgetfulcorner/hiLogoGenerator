@@ -52,7 +52,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(10);
+  frameRate(12);
   
   angleMode(DEGREES);
   rectMode(CENTER);
@@ -112,7 +112,7 @@ function draw() {
         n1 = map(n1, 0, 1, -25, 25)
         n2 = map(n2, 0, 1, -25, 25);
 
-        fill(randH + h * 0.4, 150, 220, 100);
+        fill(randH + h * 0.4, 150, 220, 140);
 
         push();
         translate((space * sizeX / 2) - (space * w), (space * sizeY / 2) - (space * h))
