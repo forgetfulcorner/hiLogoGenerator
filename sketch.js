@@ -52,7 +52,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(12);
+  frameRate(24);
   
   angleMode(DEGREES);
   rectMode(CENTER);
