@@ -21,8 +21,8 @@ let space = 10;
 /////////////// DEFINED FROM 0 to 1.
 /////////////// 0 IS TOP OF THE CANVAS.
 /////////////// 1 IS BOTTOM OF CANVAS.
-let runHeight = 0.7;
-let start = 0.85;
+let runHeight = 0.5;
+let start = 0.75;
 
 
 /////////////// VARIABLES FOR PROCESSING AND ENABLING DRAWING
